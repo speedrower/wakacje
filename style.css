@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ac9d75;
+    color: #333333;
+    padding-top: 60px;
+}
+
+#zegar {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#dni {
+    color: #d9480f;
+    font-weight: bold;
+}
