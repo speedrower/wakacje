@@ -29,6 +29,16 @@ function pokazDni() {
     document.getElementById("dni").textContent = policz(new Date(), d);
 }
 
+function powitanie(godzina) {
+    if (godzina >= 18 || godzina < 5) {
+        return "Dobry wieczór!";
+    }
+    return "Dzień dobry!";
+}
+
+const godzina = new Date().getHours();
+document.getElementById("powitanie").textContent = powitanie(godzina);
+
 pokazDate();
 pokazZegar();
 pokazDni();
